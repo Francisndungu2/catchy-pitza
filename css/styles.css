@@ -1,0 +1,42 @@
+.navbar {
+    background-color: black;
+}
+
+#dap {
+    color: yellow;
+    margin-right: 550px;
+}
+
+.dep {
+    font-size: 28px;
+    color: mintcream;
+}
+
+.dip {
+    background-color: white;
+}
+
+.column {
+    padding-left: 150px;
+}
+
+.dup {
+    justify-content: space-between;
+    margin-right: inherit;
+    display: flex;
+    margin-block: 200px;
+}
+
+.cap {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.peep {
+    color: green;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
