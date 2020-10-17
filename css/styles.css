@@ -40,3 +40,23 @@
     text-align: center;
     padding-top: 100px;
 }
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.us {
+    text-align: center;
+}
+
+
+/* .serv {
+    padding: 100px;
+} */
+
+.row {
+    padding-top: 10px;
+}
