@@ -39,6 +39,7 @@
     font-size: 30px;
     text-align: center;
     padding-top: 100px;
+    background-image: url("images/pizza-pizza-hut-cooking-kitchen(1).jpg");
 }
 
 .footer {
@@ -51,11 +52,6 @@
 .us {
     text-align: center;
 }
-
-
-/* .serv {
-    padding: 100px;
-} */
 
 .row {
     padding-top: 10px;
