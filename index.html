@@ -98,55 +98,118 @@
                                 </select>
                                         <label for="Toppings">Select Your Toppings at sh. 100 each</label><br>
                                         <div class="custom-control custom-checkbox custom-control-inline">
-                                            <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
-                                            <label class="custom-control-label" for="Bacon">Bacon</label></form>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="us"><u><b>ABOUT US</b></u></h3>
-
-                            </div>
-                            <div class="jumbotron">
-                                <div class="row">
-                                    <div class="serv">
-                                        <p>
-                                            <b>SERVICES</b>
-                                        </p>
-                                    </div>
-                                    <div class="row">
-                                        <div class="card">
-                                            <p>
-                                                <br>PITZA HUB is an online platform that
-                                                <br>deals with preparing and delivering pizza
-                                                <br>to individual or a company in kenya.</p>
+                                            <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="topping">
+                                            <label class="custom-control-label" for="Bacon">Bacon</label>
                                         </div>
-                                    </div>
-                                    <div class="move">
-                                        <div class="card">
-                                            <P>
-                                                <br>We are the company of values and good deeds
-                                                <br>throughout our serving experience and our
-                                                <br>customers are always our top priority due
-                                                <br> to those values many companies,small-businesses
-                                                <br> and individual customers have partnered with us
-                                                <br> to serve them better. </P>
+                                        <div class="custom-control custom-checkbox custom-control-inline">
+                                            <input type="checkbox" class="custom-control-input" id="Onions" value="Onions" name="topping">
+                                            <label class="custom-control-label" for="Onions">pepper</label>
                                         </div>
-                                    </div>
+                                        <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="topping">
+                                        <label class="custom-control-label" for="Sausage">onion</label>
                                 </div>
+                                <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input type="checkbox" class="custom-control-input" id="steamed" value="steamed" name="topping">
+                                    <label class="custom-control-label" for="steamed">steamed cabagge</label>
+                                </div>
+                                <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input type="checkbox" class="custom-control-input" id="tomato" value="tomato" name="topping">
+                                    <label class="custom-control-label" for="tommato">tommato sause</label>
+                                </div>
+                                <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input type="checkbox" class="custom-control-input" id="brocoli" value="brocoli chop" name="topping">
+                                    <label class="custom-control-label" for="brocoli">brocolichop</label>
+                                </div>
+                                <br><br>
+                                <button type="submit" class="btn btn-secondary bg-secondary proceed">Proceed</button>
+
                             </div>
-
-                            <footer class="footer">
-                                <p><b>CONTACTS</b>
-                                </P>
-                                <div class="img1"> <img src="/images/Screenshot from 2020-10-17 12-12-47.png" width="200px"></div>
-                                <p>Reach us through</p>
-                                <p>072342562764
-                                </p>
-                                <img src="/images/gmail (2).png" width="50px">
-
-                                <img src="/images/instagram.png" width="50px">
-                                <img src="/images/facebook.png" width="50px"> </footer>
                         </div>
+                        </form>
+                        <div class="col-sm-7">
+                            <div id="infor">
+                                <h1 class="h6-reponsive white-text text-lowercase pulse">Check Here</h6>
+                            </div>
+                            <div class="choice">
+                                <h2>Your prefferences are:</h2>
+                                <div id="your-orders">
+                                    <table class="table table-sm  pizzatable">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Size</th>
+                                                <th scope="col">Topping</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="ordersmade">
+                                            <tr>
+                                                <td id="pizzaname"></td>
+                                                <td id="pizzasize"></td>
+                                                <td id="pizzacrust"></td>
+                                                <td id="pizzatopping"></td>
+                                                <td id="totals"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p id="pizzatotal"></p>
+                                    <p id="totalbill"></p>
+                                    <p id="addedprice">Delivery will cost sh. 150</p>
+                                    <p id="finallmessage"></p>
+                                </div>
+                                <button class="btn btn-secondary  bg-secondary addPizza">Add Pizza</button>
+                                <button class="btn btn-secondary bg-secondary " id="checkout">Checkout</button>
+                                <button class="btn btn-secondary deliver bg-secondary ">Home delivery?</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="us"><u><b>ABOUT US</b></u></h3>
+
+                </div>
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="serv">
+                            <p>
+                                <b>SERVICES</b>
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="card">
+                                <p>
+                                    <br>PITZA HUB is an online platform that
+                                    <br>deals with preparing and delivering pizza
+                                    <br>to individual or a company in kenya.</p>
+                            </div>
+                        </div>
+                        <div class="move">
+                            <div class="card">
+                                <P>
+                                    <br>We are the company of values and good deeds
+                                    <br>throughout our serving experience and our
+                                    <br>customers are always our top priority due
+                                    <br> to those values many companies,small-businesses
+                                    <br> and individual customers have partnered with us
+                                    <br> to serve them better. </P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="footer">
+                    <p><b>CONTACTS</b>
+                    </P>
+                    <div class="img1"> <img src="/images/Screenshot from 2020-10-17 12-12-47.png" width="200px"></div>
+                    <p>Reach us through</p>
+                    <p>072342562764
+                    </p>
+                    <img src="/images/gmail (2).png" width="50px">
+
+                    <img src="/images/instagram.png" width="50px">
+                    <img src="/images/facebook.png" width="50px"> </footer>
+            </div>
 </body>
 
 </html>
