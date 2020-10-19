@@ -50,6 +50,7 @@
 
 .us {
     text-align: center;
+    font-size: 30px;
 }
 
 .row {
@@ -125,4 +126,14 @@ label {
 
 .serv {
     margin-left: 150px;
+}
+
+.swap {
+    padding-left: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
 }
