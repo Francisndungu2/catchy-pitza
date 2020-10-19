@@ -64,3 +64,62 @@
 .img1 {
     margin-left: 1100px;
 }
+
+.choice {
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#your-orders {
+    color: white;
+    font-size: 30px;
+}
+
+td,
+th {
+    font-size: 20px;
+    color: white;
+}
+
+#infor {
+    padding-top: 5%;
+    font-size: 22px;
+    padding-right: 8%;
+    padding-left: 5%;
+    color: #8b0000;
+}
+
+#finallmessage {
+    display: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 28px;
+}
+
+#addedprice {
+    display: none;
+}
+
+.delivery {
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.order-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 20px;
+    padding-left: 6%;
+}
+
+.order h2 {
+    text-align: center;
+}
+
+label {
+    color: white;
+}
