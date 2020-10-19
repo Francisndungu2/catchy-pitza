@@ -9,7 +9,7 @@
 
 ### Git Hub Live Link
 *click to view my project*
- {}
+ {https://francisndungu2.github.io/catchy-pitza/}
  ## Technologies used
  {HTML for creating website}
  {css for styling website}
